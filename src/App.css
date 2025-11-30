@@ -10,7 +10,10 @@ header{
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;}
+    padding: 0.5vh 1vw;
+    position: sticky;
+    top: 0;
+    }
 
 nav{
     display: grid;
@@ -19,6 +22,7 @@ nav{
     gap: 20px;
     margin-top: 10px;
     margin-right: 2vw;
+    margin-bottom: 0;
 
 }
 
@@ -33,15 +37,24 @@ nav a:hover{
     color: #007bff;
 }
 
-.home-header{
+.work-main {
   display: grid;
   grid-template-columns: auto auto;
-  width: 100%;
+  gap: 0;
+}
+
+.intro-header{
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
   background-color: bisque;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-  gap: 5vw;
-  padding: 5vh 0;
+  text-align: left;
+  padding-top: 2vh;
+  position:fixed;
+  width: 40vw;
+  height: 50vh;
+
 }
 
 .home-header img{
@@ -49,10 +62,20 @@ nav a:hover{
   height: auto;
 }
 
+.home-projects{
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: 40vw 60vw;;
+
+}
+
 .home-projects h2{
   text-align: center;
-  margin-top: 40px;
   font-size: 2em;
+}
+
+.spacer{
+  background-color: #333;
 }
 
 .proj-thumbnail{
@@ -74,20 +97,140 @@ nav a:hover{
 
 .proj-list{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
   gap: 20px;
-  padding: 20px;
-  justify-content: space-around;
+  justify-content: center;
+  padding: 5px;
+  overflow-y: scroll;
 }
-.project-directory{
-  display: flex;
-  min-width: 15vh;
-  height: 5vh;
-  border-radius: 12px;
-  margin: 2rem 6rem;
-  justify-self: end;
+
+::-webkit-scrollbar{
+  display:none;
+}
+
+.about-header{
+  display:grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 15px;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  background-color: antiquewhite;
+  padding-bottom: 3vh;
+}
+
+.about-header button{
+  width: 20vw;
+  height: 4vh;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: #0077B5;
+  color: white;
+}
+
+.about-header button:hover{
+  background-color: #3592c4;
+  box-shadow: #333 2px 1px 1px;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2vw;
+}
+
+.core-values{
+  display:grid;
+  grid-template-rows: auto auto;
   align-items: center;
   justify-content: center;
+text-align: center;}
+
+.values-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2vw;
+  padding: 0 3vw;
+}
+
+.value-box{
+  display: grid;
+  grid-template-rows: auto auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  justify-content: center;
+  min-width: 350px;
+}
+
+.personal-touch{
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-title{
+  display: grid;
+  background-color: aqua;
+  height: 8vh;
+  width: fill;
+  justify-content: center;
+  margin-bottom: 3vh;
+  align-content: center;
+}
+form{
+  display: grid;
+  grid-template-rows: auto;
+  gap: 10px;
+  margin: 2vh 3.5vw;
+  font-size: 25px;
+}
+
+input, textarea{
+  height: 4vh;
+  padding-left: 15px;
+  border-radius: 25px;
   font-size: 18px;
-  font-weight: bold;
+}
+
+textarea{
+  height: 8vh;
+  text-align: left;
+  padding: 8px 10px;
+}
+
+form button{
+  height: 4vh;
+  border-radius: 25px;
+  font-size: 25px;
+
+}
+
+.socials
+{
+  align-items: center;
+  justify-items: center;
+}
+
+.social-links
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+}
+
+.social-links button{
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  align-content: center;
+  border-radius: 20px;
+  height: 8vh;
+  width:20vw;
+  text-align: left;
+  padding: 1vh 1vh;
+}
+
+.social-links img{
+  width: 4vw;
+  justify-self: center;
+  align-self: center;
 }
