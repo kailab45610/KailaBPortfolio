@@ -9,7 +9,7 @@ function Contact() {
     return(
         <main>
             <div>
-                <div className="contact-title">
+                <div className="title">
                     <h1>Contact Me</h1>
                 </div>
             </div>
@@ -47,8 +47,8 @@ function Contact() {
                 <button type="submit" value="Submit">Submit</button>
             </form>
 
-            <div className="socials">
-                <div className="contact-title">
+            <div className="socials" >
+                <div className="title">
                     <h1>Connect with Me</h1>
                 </div>
                 <section className="social-links">

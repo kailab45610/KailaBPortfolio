@@ -1,9 +1,11 @@
+import photo from "../Assets/WIP.png"
+
 function Visual() {
     return(
-        <div>
-            <h1>My Visuals</h1>
-            <p>This is the designs page.</p>
-        </div>
+        <main className="visual">
+            <h1>Hello! This page is under construction!<br/> Come back soon!</h1>
+            <img src={photo} alt="Work In Progress"/>
+        </main>
     )
 }
 export default Visual;
