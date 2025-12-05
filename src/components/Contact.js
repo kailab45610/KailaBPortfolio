@@ -1,4 +1,5 @@
-import linkedIn from '../linkedin.png';
+import linkedin from '../Assets/linkedin.png'
+import mail from '../Assets/mail.png'
 import { useState } from 'react';
 function Contact() {
 
@@ -53,14 +54,11 @@ function Contact() {
                 </div>
                 <section className="social-links">
                 <button className="linkedIn">
-                    <h1>LinkedIn</h1>
-                    <img src={linkedIn}/>
+                    <img src={linkedin}/>
                 </button>
 
                 <button className="email">
-                    <h1>Email</h1>
-                    <img src={linkedIn}/>
-
+                    <img src={mail}/>
                 </button>
                 </section>
             </div>

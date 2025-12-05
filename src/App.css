@@ -1,8 +1,11 @@
 main{
-  background-color: #010F14;
+  background-color: #2c1c15;
   color: white;
 }
 
+button:hover{
+  cursor: pointer;
+}
 img {
   width: 500px;
   height: auto;
@@ -11,32 +14,32 @@ img {
 header{
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #022f40;
+    background-color: #563727;
     text-align: center;
     align-items: center;
     justify-content: space-between;
     padding: 0.5vh 1vw;
     position: sticky;
     top: 0;
-    color: #EA7189;
-    border-bottom: 3px solid #EA7189
+    color: #7f5539;
+    border-bottom: 3px solid #7f5539
     }
 
 header button{
   font-size: 50px;
   font-weight: bold;
   background-color: transparent;
-  border: 0.5px solid #EA7189;
+  border: 0.5px solid #de9e48;
   border-radius: 50%;
-  color: #EA7189;
+  color: #de9e48;
   padding: 10px;
   margin: 5px 0 5px 0;
 }
 
 header button:hover{
   cursor: pointer;
-  background-color:#EA7189;
-  color: #010F14;
+  background-color:#de9e48;
+  color: #2c1c15;
 }
 nav{
     display: grid;
@@ -52,25 +55,25 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: #EA7189;
+    color: #de9e48;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 nav a:hover{
-    color: white;
-    font-size: 30px;
+    color: #FFFF;
+    font-size: 1.2em;
 }
 
 .title{
    display: grid;
-  background-color:#022f40;
+  background-color:#563727;
   height: auto;
   width: fill;
   justify-content: center;
   align-content: center;
-  border-top: 2px solid #EA7189;
-  border-bottom: 2px solid #EA7189;
+  border-top: 2px solid #7f5539;
+  border-bottom: 2px solid #7f5539;
   padding-top: 2vh;
   padding-bottom: 2vh;
 
@@ -85,20 +88,20 @@ nav a:hover{
 .intro-header{
   display: grid;
   grid-template-rows: 0.5fr 1fr;
-  background-color: #022f40;
+  background-color: #563727;
   color: white;
   align-items: start;
   justify-items: center;
   text-align: left;
-  padding-top: 2vh;
+  padding: 2vh 2vh 10vh 2vh;
   position:fixed;
   width: 40vw;
   height: 100%;
-  border-right: 3px solid #EA7189;
+  border-right: 3px solid #7f5539;
 }
 
 .intro-header img{
-  width: 25vw;
+  width: 15vw;
   height: auto;
   justify-self: center;
 }
@@ -122,22 +125,24 @@ nav a:hover{
   background-color: none;
 }
 
+
 .proj-thumbnail{
   display: grid;
-  grid-template-rows: 1fr auto auto;
-  border: 1px solid #ddd;
+  grid-template-rows: auto auto 1fr;
+  border: 2px solid #ddd;
   border-radius: 5px;
   padding: 10px;
   text-align: center;
-  width: 25vw;
-  background-color: #046E8F;
+  width: 40vw;
+  background-color: #563727;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-  color: white;
+  color: #de9e48;
 }
 
 .proj-thumbnail:hover{
-  border: 2px solid #EA7189;
-  background-color: #022f40;
+  border: 3.5px solid #FFFF;
+  background-color: #de9e48;
+  color: #2c1c15;
   cursor: pointer;
 }
 .proj-thumbnail img{
@@ -148,7 +153,7 @@ nav a:hover{
 
 .proj-list{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   gap: 20px;
   justify-content: center;
   padding: 5px;
@@ -161,8 +166,9 @@ nav a:hover{
 }
 .extra-nav {
   display: grid;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
   gap: 5px;
+
 }
 .extra-nav button{
   height: 6vh;
@@ -171,14 +177,14 @@ nav a:hover{
   border-radius: 12px;
   font-size: 25px;
   font-weight: bold;
-  background-color: #EA7189;
-  color: #022f40;
+  background-color: #de9e48;
+  color: #2c1c15;
 }
 
 .extra-nav button:hover{
-  color:#0077B5;
-  background-color: #022f40;
-  border: 1px solid #EA7189;
+  color:#FFF;
+  background-color: #2c1c15;
+  border: 1px solid #de9e48;
   cursor: pointer;
 }
 
@@ -189,9 +195,8 @@ nav a:hover{
   justify-content: center;
   justify-items: center;
   text-align: center;
-  background-color: #022f40;
   padding-bottom: 3vh;
-  border-bottom: 1.5px solid #EA7189;
+  border-bottom: 1.5px solid #7f5539;
 }
 
 .about-header button{
@@ -199,15 +204,18 @@ nav a:hover{
   height: 6.7vh;
   font-size: 20px;
   border-radius: 15px;
-  background-color: #0077B5;
-  color: white;
+  background-color: #de9e48;
+  color: 2c1c15;
+  font-weight: bold;
 }
 
 .about-header button:hover{
-  background-color: #3592c4;
-  border: 1px solid #EA7189;
+  background-color: #7a431d;
+  border: 2px solid #de9e48;
+  color: white;
   box-shadow: #333 2px 1px 1px;
   font-size: 24px;
+  width: auto;
 }
 
 .buttons{
@@ -216,11 +224,31 @@ nav a:hover{
   gap: 2vw;
 }
 
+.about-descrip{
+  display:grid;
+  grid-template-columns: 1fr  1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+}
+
+.about-descrip p{
+  font-size: 15px;
+  margin: 10px;
+  padding-left: 15rem;
+  padding-right: 2rem;
+  line-height: 2;
+  text-align: left;
+}
+
+
 .core-values{
   grid-template-rows: auto auto;
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-bottom: 2vh;
+  margin-bottom: 10vh;
 }
 
 .values-container{
@@ -278,7 +306,7 @@ input, textarea{
   padding-left: 15px;
   border-radius: 25px;
   font-size: 25px;
-  background-color: #022f40;
+  background-color: #563727;
   color: white;
 }
 
@@ -293,9 +321,10 @@ form button{
   width: 50vw;
   border-radius: 25px;
   font-size: 25px;
-  background-color: #EA7189;
+  background-color: #de9e48;
   margin-top: 2vh;
   justify-self: center;
+
 }
 
 .socials
@@ -303,10 +332,6 @@ form button{
   align-items: center;
   justify-items: center;
   padding-bottom: 6vh;
-}
-
-.socials .title{
-  border-top: 2px #EA7189 solid;
 }
 
 .social-links
@@ -319,20 +344,26 @@ form button{
 
 .social-links button{
   display: grid;
-  grid-template-columns: 1fr 0.5fr;
+  justify-content: center;
   align-content: center;
   border-radius: 20px;
-  height: 8vh;
-  width:20vw;
-  text-align: left;
+  height: 8vw;
+  width:8vw;
+  text-align: center;
   padding: 1vh;
+  background-color: transparent;
+  border: none;
 }
 
-.social-links img{
-  width: 4vw;
-  justify-self: center;
-  align-self: center;
+.social-links button:hover{
+  background-color: #563727;
+  border: 2px solid #de9e48;
+  cursor: pointer;
 }
+
+
+.social-links img{
+  width: 6vw;}
 
 footer {
   display: grid;
@@ -341,18 +372,31 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #022f40;
-  color: white;
+  background-color: #563727;
+  color: #de9e48;
   text-align: left;
   padding: 0 3vw  0 3vw ;
   z-index: 1000;
-  border-top: 3px solid #EA7189;
+  border-top: 3px solid #7f5539;
+  opacity: 75%;
+}
+
+footer:hover{
+  opacity: 100%;
 }
 
 .rightSide button{
-  height: 65px;
-  width: 65px;
-  background-color: #EA7189;
+  height: 3vw;
+  width: 3vw;
+  border-radius: 12px;
+  background-color: transparent;
+  border: none;
+}
+
+.rightSide button:hover{
+  background-color: #2c1c15;
+  border: 1px solid #de9e48;
+  cursor: pointer;
 }
 .rightSide{
   display: grid;
@@ -376,13 +420,15 @@ footer {
   justify-items: center;
   align-content: center;
   padding: 2vw 5vh;
+  border-top: 2px solid #de9e48;
+  border-bottom: 2px solid #de9e48;
+  margin: 3vh 0;
 }
 
 .problem, .outcome{
-  background-color: #0077B5;
+  background-color: #563727;
   justify-self: center;
   width: 45vw;
-  border: 1px solid #EA7189;
   border-radius: 8px;
   padding: 15px;
 }
@@ -392,4 +438,19 @@ footer {
   justify-self: center;
 }
 
+.duo-col{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.tri-col{
+display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2vw;
+  margin-top: 3vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  align-items: center;
+  text-align: center;
+}
 

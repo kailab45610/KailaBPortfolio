@@ -1,12 +1,14 @@
 import photo from "../../Assets/WIP.png"
-import CaseStudy from './ProjThumbnail';
-import { Link } from 'react-router-dom';
+import lemon from "../../Assets/Lemon.png"
+import me from "../../Assets/ME.jpeg"
+import CaseStudy from './ProjThumbnail'
+import { Link } from 'react-router-dom'
 function Home() {
 
     return(
         <main className="work-main" >
             <div className="intro-header">
-                <img src={photo} alt="Profile" style={{width: "300px"}}/>
+                <img src= {me} alt="Profile"/>
                 <div className="home-title">
                     <h1>Kaila Bryant</h1>
                     <p className="home-subtitle">A recent software engineering graduate who aspires to work in the UI/UX field.</p>
@@ -26,32 +28,14 @@ function Home() {
                 <div className="proj-list">
                     <CaseStudy
                         page="/littlelemon"
-                        image={photo}
-                        title="Project One"
-                        description="Description for Project One."
+                        image={lemon}
+                        title="Little Lemon"
+                        description="Mobile Web UI for the Reserva-a-Table function"
                     />
                     <CaseStudy
                         image={photo}
-                        title="Project Two"
-                        description="Description for Project Two."
-                    />
-                    <CaseStudy
-                        image={photo}
-                        title="Project Three"
-                        description="Description for Project Three."
-                    />
-                     <CaseStudy
-                        image={photo}
-                        title="Project Three"
-                        description="Description for Project Three."
-                    /><CaseStudy
-                        image={photo}
-                        title="Project Three"
-                        description="Description for Project Three."
-                    /><CaseStudy
-                        image={photo}
-                        title="Project Three"
-                        description="Description for Project Three."
+                        title="HandiBot"
+                        description="An E-Commerce Website"
                     />
                 </div>
                 </div>
