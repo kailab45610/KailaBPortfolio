@@ -9,7 +9,7 @@ function Contact() {
 
     return(
         <main>
-            <div>
+           {/* <div>
                 <div className="title">
                     <h1>Contact Me</h1>
                 </div>
@@ -33,12 +33,13 @@ function Contact() {
                 onChange={e=> setEmail(e.target.value)}
                 required></input>
 
-                <label for="feedback">Your Feedback:</label>
+                <label for="message">Your Message:</label>
                 <textarea
-                id="feedback"
-                name="feedback"
+                id="message"
+                name="message"
                 rows="5"
                 cols="50"
+                placeholder="Enter your Message"
                 value={message}
                 onChange={e=> setMessage(e.target.value)}
                 required
@@ -46,11 +47,12 @@ function Contact() {
                 </textarea>
 
                 <button type="submit" value="Submit">Submit</button>
-            </form>
+            </form> */}
 
             <div className="socials" >
-                <div className="title">
+                <div className="title" style={{margin:"8vh"}}>
                     <h1>Connect with Me</h1>
+                    <h3>I'd love to hear from you!</h3>
                 </div>
                 <section className="social-links">
                 <button className="linkedIn">

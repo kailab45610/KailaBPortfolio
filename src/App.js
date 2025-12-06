@@ -6,12 +6,12 @@ import About from './components/About/About';
 import Contact from './components/Contact';
 import Visual from './components/Visual';
 import Footer from './components/Landing/Footer';
-import LittleLemon from './components/ProjectsinDepth/LittleLemon';
+import LittleLemon from './components/LLemon/LittleLemon';
 
 function App() {
 
   return (
-    <div className="App">
+    <main className="App">
        <Header/>
       <Routes>
         <Route path="/" element={<Work/>} />
@@ -21,7 +21,7 @@ function App() {
         <Route path="/LittleLemon" element={<LittleLemon/>}/>
       </Routes>
       <Footer/>
-    </div>
+    </main>
   );
 }
 
