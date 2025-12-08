@@ -1,9 +1,12 @@
 import ProjectPage from "../Landing/ProjectPage";
 import photo from "../../Assets/WIP.png"
-import lemonlogo from "../../Assets/lemonlogo.jpg"
+import lemonlogo from "./Assets/lemonlogo.jpg"
 import "./lemon.css"
-import wireframes from "../../Assets/wireframe.png"
-import final from "../../Assets/Lemon.png"
+import wireframes from "./Assets/wireframe.png"
+import final from "./Assets/Lemon.png"
+import problem from "./Assets/lemonProblem.png"
+import outcome from "./Assets/lemonprototype.gif"
+import style from "./Assets/lemonStyleGuide.jpg"
 function LittleLemon()
 {
     const goals=(
@@ -64,17 +67,21 @@ function LittleLemon()
                 problemtitle="“Hope you’re hungry… for nothing!”"
                 problem ="Little Lemon’s owners are ready to set up their website’s online reserve-a-table functionality.
                             The current system has a button labeled “Reserve a Table,” but it doesn’t do anything when clicked on…"
-                problemimg={photo}
+                problemimg={problem}
 
                 outcometitle="“Dinner WILL be served! (Eventually)”"
                 outcome="I designed and prototyped a user-friendly and intuitive table-reservation form for Little Lemon’s mobile website.
                         The form uses differing colors, symbols, and feedback to assist users in completing the form with a final confirmation at the conclusion of the process."
-                outcomeimg={photo}
+                outcomeimg={outcome}
 
                 goals= {goals}
 
                 ideationdescrip="The major requirements to consider for this project were the fields needed in the form. These would include the reservation information and the user’s information to ensure the restaurant would have no questions about reservations they receive. "
                 ideation = {ideation}
+
+                styleDescrip="The following style guide was used as a reference throughout the design process to ensure a clean and consistent application that maintained the brand identity of Little Lemon. "
+                styleGuide={style}
+
 
                 wireframetype="Medium Fidelity"
                 wireframes={wireframes}

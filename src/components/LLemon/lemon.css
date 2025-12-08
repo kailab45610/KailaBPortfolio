@@ -2,7 +2,7 @@
   background-color: #495E57;
 }
 
-ul{
+.lemon ul{
   list-style: none;
 }
 
@@ -11,27 +11,30 @@ ul{
   padding: 3vh;
 }
 
-li{
+.lemon li{
     font-size: 20px;
     padding-left: 3vh;
     border-top: 2px solid #F4CE14;
     padding-top: 2vh;
 }
 
-.ideationList{
+.lemon .ideationList{
   display:grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
   border: 1px solid #F4CE14;
   align-items: center;
   justify-items: center;
-  padding: 2vh;
+  justify-self: center;
+  padding: 3vh;
+  width: 100%;
 }
 .goalsList li{
     font-size: 22px;
     border: none;
     list-style: circle;
   }
-.project-header{
+.lemon .project-header{
   display: grid;
   grid-template-columns:  0.75fr 1.25fr;
   padding: 3vh;
@@ -113,7 +116,31 @@ li{
 .lemon .problem-outcome-section img{
   align-self: center;
   justify-self: center;
-  width: 10rem;
+  width: 20rem;
+  border-radius: 25px;
+}
+
+.lemon .problem .duo-col{
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+}
+
+.lemon .problem img{
+  width: 90%;
+}
+
+.lemon .styleBox{
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-items: center;
+}
+
+.lemon .styleBox img{
+  border-radius: 0;
+}
+
+.lemon .prototypeImg{
+  width: 75%;
 }
 
 .lemon .duo-cols{

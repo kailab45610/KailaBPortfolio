@@ -1,5 +1,6 @@
 import photo from "../../Assets/WIP.png"
-import lemon from "../../Assets/Lemon.png"
+import lemon from "../../components/LLemon/Assets/Lemon.png"
+import hairday from "./HairDay/Assets/outcome.png"
 import me from "../../Assets/ME.jpeg"
 import CaseStudy from './ProjThumbnail'
 import { Link } from 'react-router-dom'
@@ -30,12 +31,13 @@ function Home() {
                         page="/littlelemon"
                         image={lemon}
                         title="Little Lemon"
-                        description="Mobile Web UI for the Reserva-a-Table function"
+                        description="Mobile Web UI for the Reserve-a-Table function"
                     />
                     <CaseStudy
-                        image={photo}
-                        title="HandiBot"
-                        description="An E-Commerce Website"
+                        page="/hairday"
+                        image={hairday}
+                        title="HairDay"
+                        description="A Salon Business Website"
                     />
                 </div>
                 </div>

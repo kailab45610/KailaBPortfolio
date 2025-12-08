@@ -50,8 +50,8 @@ function Contact() {
             </form> */}
 
             <div className="socials" >
-                <div className="title" style={{margin:"8vh"}}>
-                    <h1>Connect with Me</h1>
+                <div className="title" style={{margin:"8vh", textAlign:"center"}}>
+                    <h1>Connect with Me!</h1>
                     <h3>I'd love to hear from you!</h3>
                 </div>
                 <section className="social-links">

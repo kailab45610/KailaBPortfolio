@@ -33,7 +33,7 @@ function About() {
              <section className="core-values">
                 <h1 className='title' style={{display:"grid",marginTop:"0", paddingTop:"2vh", paddingBottom:"2vh"}}>Skills</h1>
                 <div className="duo-col">
-                    
+
                     <div className="skills-container">
                         <div className="skill">
                             <h3>CSS</h3>
@@ -64,10 +64,13 @@ function About() {
                     <div className="skills-list">
                         <ul>
                             <li>UI/UX Design</li>
-                            <li>Front End Web Development</li>
+                            <li>Prototypes/Wireframes</li>
+                            <li>User-Centered Design</li>
                             <li>Web Design</li>
                             <li>UX Research</li>
-                            <li>Prototypes/Wireframes</li>
+                            <li>Front End Web Development</li>
+                            <li>Software Development Life Cycle</li>
+                            <li>Agile, Kanban, Iterative Methodologies</li>
                         </ul>
                     </div>
                     </div>

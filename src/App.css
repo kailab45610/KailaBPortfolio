@@ -3,6 +3,10 @@ main{
   color: white;
 }
 
+a{
+  text-decoration: none;
+}
+
 button:hover{
   cursor: pointer;
 }
@@ -60,6 +64,10 @@ nav a{
 nav a:hover{
     color: #FFFF;
     font-size: 1.3em;
+}
+
+ul h3{
+    font-size: 22px;
 }
 
 .title{
@@ -125,15 +133,17 @@ nav a:hover{
 
 .proj-thumbnail{
   display: grid;
-  grid-template-rows: auto auto 1fr;
+  grid-template-rows: 0 auto auto 1.5fr;
   border: 2px solid #ddd;
   border-radius: 5px;
-  padding: 10px;
+  padding: 12px;
   text-align: center;
   width: 40vw;
+  height: 80vh;
   background-color: #563727;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
   color: #de9e48;
+  margin-bottom: 2vh;
 }
 
 .proj-thumbnail:hover{
@@ -144,8 +154,10 @@ nav a:hover{
 }
 .proj-thumbnail img{
   width: 100%;
-  height: auto;
+  align-self: center;
+  justify-self: center;
   border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 .proj-list{
@@ -266,6 +278,10 @@ nav a:hover{
   padding: 2vh;
 }
 
+
+.skills-list{
+  margin-top: 3vh;
+}
 .skills-list li{
   border: none;
   text-align: left;
@@ -276,7 +292,8 @@ nav a:hover{
 }
 
 .icon{
-  scale: 4;
+  width: auto;
+  height: 50px;
   justify-self: center;
 
 }
@@ -317,12 +334,31 @@ nav a:hover{
 }
 
 .visual{
-  display: flexbox;
+  background-color: #2c1c15;
+}
+
+.designs-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3vh;
+  padding: 5vh;
+  padding-bottom: 15vh;
+}
+
+.mobile-interface{
+  display: grid;
+  grid-template-rows: auto auto auto auto;
   justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
   text-align: center;
-  background-color: #333;
-  color: white;
-  padding: 12vh;
+  border: 2px solid #de9e48;
+  border-radius: 12px;
+}
+
+.visual img{
+  width: 95%
 }
 
 
@@ -508,6 +544,16 @@ footer:hover{
   width: 10rem;
 }
 
+.styleBox{
+  max-height: 75vh;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-y: scroll;
+}
+
+.styleGuide p{
+  text-align: center;
+}
 .duo-col{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -524,6 +570,22 @@ display: grid;
   margin-right: 3vw;
   align-items: center;
   text-align: center;
+}
+
+.project-Works{
+  display: grid;
+  border-radius: 12px;
+  background-color: #F4CE14;
+  justify-self: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+
+.project-Works:hover{
+  background-color: #495E57;
+  border: 2px solid #F4CE14;
+  color: #D9D9D9;
 }
 
 
