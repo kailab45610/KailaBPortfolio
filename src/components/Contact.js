@@ -55,13 +55,17 @@ function Contact() {
                     <h3>I'd love to hear from you!</h3>
                 </div>
                 <section className="social-links">
+                 <a href="https://www.linkedin.com/in/kaila-bryant-36a510239/" target="_blank">
                 <button className="linkedIn">
                     <img src={linkedin}/>
                 </button>
+                </a>
 
+                <a href="mailto:K.BRYANT45610@GMAIL.COM">
                 <button className="email">
                     <img src={mail}/>
                 </button>
+                </a>
                 </section>
             </div>
 
