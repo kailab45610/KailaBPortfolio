@@ -339,15 +339,15 @@ ul h3{
 
 .designs-container{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr;
   gap: 3vh;
   padding: 5vh;
-  padding-bottom: 15vh;
+  padding-bottom: 2vh;
 }
 
 .mobile-interface{
   display: grid;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows:  0.25fr 0.5fr 0.25fr 0.25fr;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -357,9 +357,35 @@ ul h3{
   border-radius: 12px;
 }
 
-.visual img{
-  width: 95%
+.web-interface{
+  display: grid;
+  grid-template-rows: 0.15fr 0.15fr 0.25fr 0.25fr;
+ justify-content: center;
+  align-items: center;
+  align-content: start;
+  justify-items: center;
+  text-align: center;
+  border: 2px solid #de9e48;
+  border-radius: 12px;
 }
+
+.web-interface img{
+  border-radius: 0%;
+  width: 33vw;
+}
+
+.imgBox {
+  display: grid;
+  border: 1px solid #de9e48;
+  height: 45vh;
+  width: 35vw;
+  overflow-y: hidden;
+  overflow-y: scroll;
+  padding: 1vh;
+  align-items: center;
+  justify-items: center;
+}
+
 
 
 
@@ -455,12 +481,8 @@ footer {
   padding: 0 3vw  0 3vw ;
   z-index: 1000;
   border-top: 3px solid #7f5539;
-  opacity: 75%;
 }
 
-footer:hover{
-  opacity: 100%;
-}
 
 .rightSide button{
   height: 3vw;
