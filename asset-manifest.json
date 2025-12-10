@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/KailaBPortfolio/static/css/main.feb03713.css",
+    "main.js": "/KailaBPortfolio/static/js/main.46cc32fd.js",
+    "static/js/453.2fbea3ca.chunk.js": "/KailaBPortfolio/static/js/453.2fbea3ca.chunk.js",
+    "static/media/EzMng Prototype.gif": "/KailaBPortfolio/static/media/EzMng Prototype.544917790852aeebbd2c.gif",
+    "static/media/outcome.png": "/KailaBPortfolio/static/media/outcome.2f48774f556427e13832.png",
+    "static/media/lemonStyleGuide.jpg": "/KailaBPortfolio/static/media/lemonStyleGuide.a2917a370f5a709748b5.jpg",
+    "static/media/ME.jpeg": "/KailaBPortfolio/static/media/ME.bfda1040cdfbb8ed23d2.jpeg",
+    "static/media/lemonProblem.png": "/KailaBPortfolio/static/media/lemonProblem.d4ff8c0a4462a5b12b40.png",
+    "static/media/lemonprototype.gif": "/KailaBPortfolio/static/media/lemonprototype.8cce08467d2716f78673.gif",
+    "static/media/layoutTemplate.png": "/KailaBPortfolio/static/media/layoutTemplate.349f6b4ab5b6854ca0e9.png",
+    "static/media/HandiBot.png": "/KailaBPortfolio/static/media/HandiBot.85b3467d4008219b2179.png",
+    "static/media/wireframe.png": "/KailaBPortfolio/static/media/wireframe.de5035db13aedbe0e97d.png",
+    "static/media/Lemon.png": "/KailaBPortfolio/static/media/Lemon.1dd923ee21953227e19b.png",
+    "static/media/starbit cafe.png": "/KailaBPortfolio/static/media/starbit cafe.8b1bea69719ddede0bd0.png",
+    "static/media/logos.png": "/KailaBPortfolio/static/media/logos.1f7c95e0154f982ae720.png",
+    "static/media/Logo1.png": "/KailaBPortfolio/static/media/Logo1.309cab7adf31e453f725.png",
+    "static/media/WIP.png": "/KailaBPortfolio/static/media/WIP.20021d1c74edb5cccdd7.png",
+    "static/media/lemonlogo.jpg": "/KailaBPortfolio/static/media/lemonlogo.e68246686f716ff6e5d8.jpg",
+    "index.html": "/KailaBPortfolio/index.html",
+    "main.feb03713.css.map": "/KailaBPortfolio/static/css/main.feb03713.css.map",
+    "main.46cc32fd.js.map": "/KailaBPortfolio/static/js/main.46cc32fd.js.map",
+    "453.2fbea3ca.chunk.js.map": "/KailaBPortfolio/static/js/453.2fbea3ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.feb03713.css",
+    "static/js/main.46cc32fd.js"
+  ]
+}
