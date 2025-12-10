@@ -4,6 +4,7 @@
 
 .lemon ul{
   list-style: none;
+  padding-right: 0.5vh;
 }
 
 .lemon p{
@@ -12,9 +13,8 @@
 }
 
 .lemon li{
-    font-size: 20px;
+    font-size: 1.25rem;
     padding-left: 3vh;
-    border-top: 2px solid #F4CE14;
     padding-top: 2vh;
 }
 
@@ -30,7 +30,7 @@
   width: 100%;
 }
 .goalsList li{
-    font-size: 22px;
+    font-size: 1.25rem;
     border: none;
     list-style: circle;
   }
@@ -80,7 +80,7 @@
     color: white;
 }
 .lemon ul h3{
-    font-size: 22px;
+    font-size: 1.35rem;
 }
 
 .lemon .project-section{

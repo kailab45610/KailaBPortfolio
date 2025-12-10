@@ -1,6 +1,7 @@
 main{
   background-color: #2c1c15;
   color: white;
+  padding-bottom: 2vh;
 }
 
 a{
@@ -92,7 +93,7 @@ ul h3{
 
 .intro-header{
   display: grid;
-  grid-template-rows: 0.5fr 1fr;
+  grid-template-rows: 0.25fr 1fr;
   background-color: #563727;
   color: white;
   align-items: start;
@@ -112,7 +113,8 @@ ul h3{
 }
 
 .intro-header p{
-  font-size: 22px;
+  font-size: 1rem;
+
 }
 
 .home-projects{
@@ -139,7 +141,8 @@ ul h3{
   padding: 12px;
   text-align: center;
   width: 40vw;
-  height: 80vh;
+  max-height: 80vh;
+  min-height: 50vh;
   background-color: #563727;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
   color: #de9e48;
@@ -175,16 +178,18 @@ ul h3{
 }
 .extra-nav {
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  gap: 0.5vw;
 
 }
 .extra-nav button{
-  height: 6vh;
-  width: fill;
+  min-height: 6vh;
+  width: 12vw;
+  max-width: 15vw;
   margin: 8px;
   border-radius: 12px;
-  font-size: 25px;
+  font-size: 1rem;
   font-weight: bold;
   background-color: #de9e48;
   color: #2c1c15;
@@ -199,7 +204,7 @@ ul h3{
 
 .about-header{
   display:grid;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: auto auto;
   gap: 15px;
   justify-content: center;
   justify-items: center;
@@ -221,7 +226,7 @@ ul h3{
 }
 
 .about-header button{
-  width: 20vw;
+  min-width: 25vw;
   height: 6.7vh;
   font-size: 20px;
   border-radius: 15px;
@@ -254,12 +259,16 @@ ul h3{
 }
 
 .about-descrip p{
-  font-size: 15px;
-  margin: 10px;
-  padding-left: 15rem;
+  font-size: 1rem;
+  margin: 0.5vh;
   padding-right: 2rem;
+  padding-left: 5rem;
   line-height: 2;
   text-align: left;
+}
+.about-descrip img{
+  width: 25vw;
+  height: auto;
 }
 
 .skills-container{
@@ -304,13 +313,11 @@ ul h3{
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-bottom: 2vh;
-  margin-bottom: 10vh;
 }
 
 .values-container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
   gap: 2vw;
 }
 
@@ -322,15 +329,6 @@ ul h3{
   justify-content: center;
   min-width: 350px;
   padding: 2vh;
-}
-
-.hobbies{
-  display: grid;
-  grid-template-rows: 1fr auto 1fr;
-  gap: 3vh;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 8vh;
 }
 
 .visual{
@@ -555,7 +553,8 @@ footer {
 .problem, .outcome{
   background-color: #563727;
   justify-self: center;
-  width: 45vw;
+  width: auto;
+  max-width: 40vw;
   border-radius: 8px;
   padding: 15px;
 }

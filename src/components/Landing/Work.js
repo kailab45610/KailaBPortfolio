@@ -14,7 +14,7 @@ function Home() {
                     <h1>Kaila Bryant</h1>
                     <p className="home-subtitle">A recent software engineering graduate who aspires to work in the UI/UX field.</p>
                     <section className='extra-nav'>
-                        <Link to = "/about"><button>More About Me</button></Link>
+                        <Link to = "/about"><button>About Me</button></Link>
                         <Link to = "/visual"><button>Visual Designs</button></Link>
                         <Link to = "/contact"><button>Contact Me</button></Link>
                     </section>

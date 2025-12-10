@@ -14,16 +14,16 @@ function Visual() {
             <h2 className="title" style={{backgroundColor:"transparent", border:"none", marginBottom: "2px"}}>Web Interfaces</h2>
             <div className="designs-container">
                 <WebInterface
-                    title="Title"
+                    title="EzMng"
                     interface={ezmng}
-                    description="description"
-                    tools="tools"
+                    description="A Project Management organization tool"
+                    tools="Figma"
                     />
                     <WebInterface
-                    title="Title"
+                    title="HandiBot"
                     interface={handi}
-                    description="description"
-                    tools="tools"
+                    description="An e-commerce website for commercial and personal assisting robots"
+                    tools="Figma"
                     />
             </div>
             <h2 className="title" style={{backgroundColor:"transparent", border:"none", marginBottom: "2px"}}>More On the Way!</h2>

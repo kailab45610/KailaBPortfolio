@@ -2,6 +2,10 @@
     background-color: #D77968;
 }
 
+.hairday h3{
+    font-size: 1.5rem;
+}
+
 .hairday .title, .hairday .project-header{
     background-color: #75acc2;
     border-top: 2px solid #FFF;
@@ -24,12 +28,12 @@
 
 .hairday .problem-outcome-section img{
    border-radius: 8px;
-   width: 75%;
+   width: 90%;
+   height: auto;
    align-self: center;
 }
 
 .hairday .outcome img{
-    width: 40vw;
     margin-top: 3vh;
     border: 2px solid #D77968;
 
