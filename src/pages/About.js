@@ -1,24 +1,23 @@
-import me from "../../Assets/ME.jpeg"
-import Values from './Values';
+import me from "../Assets/ME.jpeg"
+import Values from '../components/About/Values';
 import {Css, FigmaDark, ReactDark, Git, JavaScript, NodeJsDark, Html} from '@skill-icons/react';
 function About() {
     return(
         <main>
             <div className="about-header">
-                <section className="about-descrip">
-                    <div className="about-text">
-                        <h1 className="title">Hi! I'm Kaila (Kay-la)</h1>
-                        <p><br/>
+                        <div className="title">
+                            <h1>Hi! I'm Kaila (Kay-la)</h1>
+
+                            </div>
+
+                        <p className="bio"><br/>
                             I’m a recently graduated <b>Software Engineering student</b> with a focus on <b>UI/UX design and front-end web development</b>. From my experiences in software development processes, I have truly fallen in love with putting the "fun" in functionality.
                             <br/><br/>
                             While I'm always looking for opportunities to learn more about myself, I recognize that <b>creativity</b> and <b>empathy</b> have been a constant foundation in everything I make. Being able to have these values applied to computing is what truly pushed my confidence in development. 
                             Further exploration allowed me to grow a heavier interest in front-end development, driving me to grow adept in front-end coding languages such as <b>JavaScript, HTML, and CSS</b> along with a strong proficiency in tools and frameworks <b>Figma</b> and <b>React</b>.
                                  <br/>
                                 </p>
-
-                    </div>
-                <img src={me} style={{justifySelf:"start"}}/>
-                </section>
+                            <img className="me" src={me} style={{justifySelf:"start"}}/>
 
                 <div className="buttons">
                     <a href="https://www.linkedin.com/in/kaila-bryant-36a510239/" target="_blank">
@@ -30,9 +29,11 @@ function About() {
                 </a>
                 </div>
             </div>
+
+
              <section className="core-values">
                 <h1 className='title' style={{display:"grid",marginTop:"0", paddingTop:"2vh", paddingBottom:"2vh"}}>Skills</h1>
-                <div className="duo-col">
+                <div className="skills-box">
 
                     <div className="skills-container">
                         <div className="skill">
@@ -61,16 +62,23 @@ function About() {
                         </div>
 
                     </div>
+
                     <div className="skills-list">
+                        <h3>Concepts:</h3>
                         <ul>
+                            <div>
                             <li>UI/UX Design</li>
                             <li>Prototypes/Wireframes</li>
                             <li>User-Centered Design</li>
                             <li>Web Design</li>
                             <li>UX Research</li>
+
+                            </div>
+                            <div>
                             <li>Front End Web Development</li>
                             <li>Software Development Life Cycle</li>
                             <li>Agile, Kanban, Iterative Methodologies</li>
+                            </div>
                         </ul>
                     </div>
                     </div>

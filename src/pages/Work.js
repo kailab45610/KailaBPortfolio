@@ -1,8 +1,8 @@
-import photo from "../../Assets/WIP.png"
-import lemon from "../../components/LLemon/Assets/Lemon.png"
-import hairday from "./HairDay/Assets/outcome.png"
-import me from "../../Assets/ME.jpeg"
-import CaseStudy from './ProjThumbnail'
+import photo from "../Assets/WIP.png"
+import lemon from "../components/projects/LLemon/Assets/Lemon.png"
+import hairday from "../components/projects/HairDay/Assets/outcome.png"
+import me from "../Assets/ME.jpeg"
+import CaseStudy from '../components/projects/ProjThumbnail'
 import { Link } from 'react-router-dom'
 function Home() {
 

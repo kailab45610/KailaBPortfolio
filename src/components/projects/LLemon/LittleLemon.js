@@ -1,5 +1,5 @@
-import ProjectPage from "../Landing/ProjectPage";
-import photo from "../../Assets/WIP.png"
+import ProjectPage from "../../../pages/ProjectPage";
+import photo from "../../../Assets/WIP.png"
 import lemonlogo from "./Assets/lemonlogo.jpg"
 import "./lemon.css"
 import wireframes from "./Assets/wireframe.png"

@@ -1,4 +1,4 @@
-import ProjectPage from "../ProjectPage"
+import ProjectPage from "../../../pages/ProjectPage";
 import logo1 from "./Assets/Logo1.png"
 import logos from "./Assets/logos.png"
 import wireframe from "./Assets/wireframe.png"

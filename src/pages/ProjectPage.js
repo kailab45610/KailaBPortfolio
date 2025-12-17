@@ -65,7 +65,7 @@ function ProjectPage(props){
             <div className="project-section">
                 <h1 className="title">Design Process</h1>
                 <section >
-                    <h2 className="title" style={{backgroundColor:"transparent", color:"white", border:"none"}}>Ideation</h2>
+                    <h2 className="title" style={{backgroundColor:"transparent", color:"white", border:"none", textDecoration:"underline"}}>Ideation</h2>
                     <div className="duo-rows">
                         <p style={{alignSelf:"center",paddingLeft:"8vh", paddingRight:"8vh", fontSize: "22px", textAlign:"center"}}>{props.ideationdescrip}</p>
                             <div>{props.ideation}</div>
@@ -83,7 +83,7 @@ function ProjectPage(props){
                     </div>
                 </section>*/}
                 <section className="styleGuide">
-                    <h2 className="title" style={{backgroundColor:"transparent", color:"white", border:"none"}}>Style Guide</h2>
+                    <h2 className="title" style={{backgroundColor:"transparent", color:"white", border:"none",textDecoration:"underline"}}>Style Guide</h2>
                         <p>{props.styleDescrip}</p>
                         <div className="styleBox" >
                         <img src={props.styleGuide} alt="This project's style guide"/>

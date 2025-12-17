@@ -11,12 +11,12 @@ function Footer()
             <section className='rightSide'>
                 <a href="https://www.linkedin.com/in/kaila-bryant-36a510239/" target="_blank">
                 <button>
-                    <img src={linkedin} style={{display:"grid", width:"2.5vw", justifySelf:"center"}}/>
+                    <img src={linkedin}/>
                 </button>
                 </a>
                 <a href="mailto:K.BRYANT45610@GMAIL.COM">
                     <button>
-                        <img src={mail} style={{display:"grid", width:"2.5vw", justifySelf:"center"}}/>
+                        <img src={mail}/>
                     </button>
                 </a>
             </section>

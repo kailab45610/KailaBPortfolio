@@ -2,19 +2,43 @@
     background-color: #D77968;
 }
 
+.hairday p{
+    font-size: 1.15rem;
+}
 .hairday h3{
     font-size: 1.5rem;
 }
 
-.hairday .title, .hairday .project-header{
+.hairday .title, .hairday{
     background-color: #75acc2;
     border-top: 2px solid #FFF;
     border-bottom: 2px solid #FFF;
     color: white;
+
 }
 
 .hairday .project-header{
+     display: grid;
+  grid-template-columns:  0.75fr 1.25fr;
+  grid-template-areas: "title logo";
+  padding: 3vh;
+  margin: 0;
+  align-items: center;
+      background-color: #75acc2;
+
+
+}
+
+.hairday .project-header{
+    grid-area: title;
     margin-top: 0;
+}
+
+.hairday .project-header img{
+    grid-area: logo;
+    border-radius: 0%;
+    width: 25rem;
+    height: auto;
 }
 
 .hairday .project-header .title {
@@ -24,6 +48,7 @@
 .hairday .problem-outcome-section{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
+    padding: 2vh;
 }
 
 .hairday .problem-outcome-section img{
@@ -55,13 +80,12 @@
 
 .hairday img{
 
-    border-radius: 25px;
+    border-radius: 8%;
 }
 
 .hairday .prototypeImg{
     width: 80%;
     padding: 4vh;
-    border-radius: 35px;
 }
 
 .hairday .duo-rows{
@@ -84,13 +108,20 @@
   border: none;
 }
 
+.hairday .styleGuide{
+    display: grid;
+    grid-template-rows: 0.25fr 0.25fr 1fr;
+    gap: 0.25rem;
+}
 .hairday .styleBox{
-    display:grid;
-    grid-template-rows: auto auto;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
+   width: 80%;
+   justify-self: center;
+  }
+
+.hairday .styleBox img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 
@@ -105,4 +136,51 @@
     border: #FFF 4px solid;
     color: #FFF;
     font-weight: bold;
+}
+
+@media(max-width: 768px){
+.hairday .project-header{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "logo"
+  "title";
+  padding: 1vh;
+  margin: 0;
+  align-items: center;
+}
+
+.hairday .project-header img{
+  width:25rem;
+  height: auto;
+}
+.problem-outcome-section{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2vw;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  padding: 2vh;
+  margin: 1vh;
+  text-align: center;
+}
+
+.problem, .outcome{
+    grid-template-columns: auto auto auto auto;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.problem-outcome-section img{
+  align-self: center;
+  justify-self: center;
+  width: 10rem;
+}
+
+.duo-col{
+    grid-template-columns: 1fr;
+}
 }

@@ -1,9 +1,9 @@
-import photo from "../../Assets/WIP.png"
-import MobileInterface from "./MobileInterface";
-import WebInterface from "./WebInterface";
-import ezmng from "./Assets/EzMng Prototype.gif"
-import handi from "./Assets/HandiBot.png"
-import starbit from "./Assets/starbit cafe.png"
+import photo from "../Assets/WIP.png"
+import MobileInterface from "../components/Visual/MobileInterface";
+import WebInterface from "../components/Visual/WebInterface";
+import ezmng from "../components/Visual/Assets/EzMng Prototype.gif"
+import handi from "../components/Visual/Assets/HandiBot.png"
+import starbit from "../components/Visual/Assets/starbit cafe.png"
 function Visual() {
     return(
         <main className="visual">
