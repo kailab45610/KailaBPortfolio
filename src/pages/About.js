@@ -31,7 +31,7 @@ function About() {
             </div>
 
 
-             <section className="core-values">
+             <section className="skill-container">
                 <h1 className='title' style={{display:"grid",marginTop:"0", paddingTop:"2vh", paddingBottom:"2vh"}}>Skills</h1>
                 <div className="skills-box">
 

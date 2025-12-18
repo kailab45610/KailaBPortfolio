@@ -99,13 +99,16 @@ ul h3{
 .intro-header{
   grid-area:"hero";
   display: grid;
-  grid-template-rows: 0.25fr 1fr;
+  grid-template-rows: 0.15fr 1fr;
   background-color: #563727;
   color: white;
   align-items: start;
   justify-items: center;
   text-align: left;
-  padding: 2vh 2vh 10vh 2vh;
+  padding-bottom: 2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+
   position:fixed;
   width: 40vw;
   height: 100%;
@@ -113,9 +116,11 @@ ul h3{
 }
 
 .intro-header img{
-  max-width: 20rem;
+ width: 25vw;
   height: auto;
   justify-self: center;
+  margin-top: 10vh;
+  border-radius: 8%;
 }
 
 .intro-header p{
@@ -285,14 +290,13 @@ ul h3{
 
 .skills-box{
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  grid-area:
-  "icons list";
-  justify-content: space-between;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "icons list";
 }
 .skills-container{
-  grid-area: icons;
   display: grid;
+  grid-area: icons;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   margin-left: 5vh;
@@ -309,6 +313,7 @@ ul h3{
   text-align: center;
   font-size: 1rem;
 }
+
 
 
 .skills-list{
@@ -364,6 +369,11 @@ ul h3{
 }
 
 @media(max-width: 768px) {
+
+  .intro-header{
+   overflow-y: scroll;
+
+  }
   .intro-header img {
     width: 10rem;
   }
@@ -379,6 +389,7 @@ ul h3{
     grid-template-columns: 1fr;
     grid-auto-rows: 0.25fr 0.25fr 0.25fr 0.25;
     padding-bottom: 0.25rem;
+    justify-items: center;
     grid-template-areas:
       "image"
       "title"
