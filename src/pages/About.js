@@ -6,7 +6,7 @@ function About() {
         <main>
             <div className="about-header">
                         <div className="title">
-                            <h1>Hi! I'm Kaila (Kay-la)</h1>
+                            <h1>Hi! I'm Kaila</h1>
 
                             </div>
 

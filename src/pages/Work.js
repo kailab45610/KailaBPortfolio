@@ -10,7 +10,7 @@ function Home() {
         <main className="work-main" >
             <div className="intro-header">
                 <img src= {me} alt="Profile"/>
-                <div className="home-title">
+                <section>
                     <h1>Kaila Bryant</h1>
                     <p className="home-subtitle">A recent software engineering graduate who aspires to work in the UI/UX field.</p>
                     <section className='extra-nav'>
@@ -18,14 +18,14 @@ function Home() {
                         <Link to = "/visual"><button>Visual Designs</button></Link>
                         <Link to = "/contact"><button>Contact Me</button></Link>
                     </section>
-                </div>
+                </section>
             </div>
 
             <section className="home-projects">
                 <aside className="spacer">
                 </aside>
                 <div className="content">
-                    <h2>Featured Projects</h2>
+                    <h1>Featured Projects</h1>
                 <div className="proj-list">
                     <CaseStudy
                         page="/littlelemon"

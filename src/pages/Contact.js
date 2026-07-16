@@ -9,7 +9,7 @@ function Contact() {
 
     return(
         <main>
-           {/* <div>
+            <div>
                 <div className="title">
                     <h1>Contact Me</h1>
                 </div>
@@ -47,7 +47,7 @@ function Contact() {
                 </textarea>
 
                 <button type="submit" value="Submit">Submit</button>
-            </form> */}
+            </form>
 
             <div className="socials" >
                 <div className="title" style={{margin:"8vh", textAlign:"center"}}>
